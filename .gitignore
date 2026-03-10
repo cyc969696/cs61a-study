@@ -1,4 +1,5 @@
 __pycache__/
+.ok*
 *.pyc
 .DS_Store
 .vscode/
