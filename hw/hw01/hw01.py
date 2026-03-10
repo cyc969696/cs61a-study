@@ -111,6 +111,7 @@ def hailstone(n):
     # print(hs_seq)
     return len(hs_seq)
         
+#HW01 finished 03-10-2026       
         
         
 

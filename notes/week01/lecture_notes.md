@@ -15,7 +15,17 @@
 
 ## Syntax Examples
 
-```python
-3 + 4
-max(3, 4)
-pow(2, 5)
+Whole function is a call expression: function(argumants)
+ex.
+from operator import add, mul
+add (2,3) = 5
+mul (4,6) = 4*6 = 24
+Operator (Operand, Operand)
+apply the function that is the value of the operator subexpression to argumants are the values of the operand subexpression
+
+expression tree: the diagram of whole processce of evaluating nested expressions
+ex. 
+mul(add(2,mul(4,6)),add(3,5))
+
+mul: value of the subexpression
+add(2,mul(4,6)): Operand subexpression
