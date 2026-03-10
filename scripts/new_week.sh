@@ -19,6 +19,10 @@ touch notes/week$WEEK/lecture_notes.md
 touch notes/week$WEEK/discussion_notes.md
 touch notes/week$WEEK/summary.md
 
+touch notes/week$WEEK/.gitkeep
+touch hw/hw$WEEK/.gitkeep
+touch lab/lab$WEEK/.gitkeep
+
 echo "Done!"
 
 echo "Created:"
