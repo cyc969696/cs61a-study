@@ -1,6 +1,7 @@
 # CS61A Study
 
 This repository documents my CS61A learning journey using Python.
+Lesson origin: https://cs61a.org/
 
 ## Structure
 
