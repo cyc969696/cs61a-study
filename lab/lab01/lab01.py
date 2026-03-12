@@ -8,7 +8,12 @@ def digit(n, k):
     >>> digit(3579, 10)
     0
     """
-    return ____
+    # print("power = ",pow(10,k+1))
+    # print("remain = ",n%pow(10,k+1))
+    # print("remain2 = ",n%pow(10,k))
+    # print("remain2 = ",(n%pow(10,k+1)-n%pow(10,k)))
+
+    return (n%pow(10,k+1)-n%pow(10,k))//pow(10,k)
 
 
 def middle(a, b, c):
